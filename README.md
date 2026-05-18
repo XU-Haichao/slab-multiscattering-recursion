@@ -1,5 +1,7 @@
 # slab-multiscattering-recursion
 
+This README was prepared with assistance from GPT-5.5.
+
 This repository contains the minimal reproducibility package for a recursive
 formalism for multi-scattering escape probabilities, angular distributions, and
 Comptonized spectra in a plane-parallel slab.
