@@ -1,0 +1,46 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Build products
+mcrt_ang/mcrt_ang
+mcrt_ang/inv_comp_blackbody_5ev
+inv_comp/inv_comp
+inv_comp_blackbody_5ev/inv_comp_blackbody_5ev
+recursive_compare/recursive_compare
+*.o
+*.dSYM/
+
+# Local outputs and exploratory products
+figures*/
+logs*/
+bb5k/
+cmp*/
+mean_energy_spectrum/
+paper_plots/figures/
+mcrt_ang/oang*/
+mcrt_ang/out_smoke/
+mcrt_ang/output/
+inv_comp/output*/
+inv_comp_blackbody_5ev/output*/
+recursive_compare/output*/
+compps_run/compps_driver
+
+# Local exploratory source trees not included in the minimal reproduction package
+inv_comp/
+inv_comp_blackbody_5ev/
+recursive_compare/
+paper_plots/
+compps/
+compps_run/
+
+# Draft manuscripts and local analysis notebooks
+plot.ipynb
+main.ipynb
+main_config*.json
+plot_no_kn_spectra.ipynb
+*.pdf
+*.tex
+ChatGPT-*.md
+MAIN_NOTEBOOK_USAGE.md
